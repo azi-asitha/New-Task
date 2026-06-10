@@ -12,7 +12,7 @@ function ProductList(){
             {products.map((product) =>(
                 <ProductCard 
                 key={product.id}
-                name={product.namee}
+                name={product.name}
                 price={product.price}
                 category={product.category}
                 />
